@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="home-page">
-      {/* <h1>Home Page</h1> */}
+      <p>Hi there! This is Giphed. <br />Explore a wide variety of GIFS from the internet</p>
       <button>
-        <Link to={"/gifs"}>Explore GIPHYS</Link>
+        <Link to={"/explore"}>Explore GIPHYS</Link>
       </button>
     </div>
   );
